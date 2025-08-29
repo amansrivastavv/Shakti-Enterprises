@@ -6,7 +6,7 @@ import { ArrowRight } from "lucide-react";
 
 const Hero = () => {
   return (
-    <div className="hero-section bg-[#F2F2F2] flex flex-col md:flex-row max-h-[720px]">
+    <div className="hero-section bg-[#F2F2F2] flex flex-col md:flex-row max-h-[800px]">
       {/* Left Section */}
       <div
         className="flex-1 flex flex-col items-center md:items-start justify-center px-6 md:px-12 text-center md:text-left"
@@ -47,12 +47,12 @@ const Hero = () => {
       </div>
 
       {/* Right Section */}
-      <div className="flex-1 flex justify-center items-center">
-        <img
-          src={HeroImg}
-          alt="Hero Image"
-          className="w-full h-auto max-h-[600px] object-contain"
-        />
+      <div className="flex-1 flex justify-center items-center mt-4 mb-4">
+    <img
+  src={HeroImg}
+  alt="Hero Image"
+  className="w-full h-auto max-h-[300px] sm:max-h-[400px] md:max-h-[600px] object-contain "
+/>
       </div>
     </div>
   );
